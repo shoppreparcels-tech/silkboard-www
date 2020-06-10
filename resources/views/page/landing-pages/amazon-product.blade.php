@@ -16,7 +16,7 @@
     <meta property="og:image:width" content="2160">
     <meta property="og:image:height" content="1216">
     <meta property="og:image:alt" content="Amazon international shipping" />
-    <meta property="og:description" content="Amazon India products Internatioanl Delivery with ShoppRe at lower rates." />
+    <meta property="og:description" content="Amazon India products International Delivery with ShoppRe at lower rates." />
     <meta property="og:site_name" content="ShoppRe" />
 
     <style>

@@ -153,9 +153,9 @@
             <div class="row">
                 <div class="">
                     <center>
-                        <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear/c-msh1012?q=%3Arelevance%3Acategory%3AMSH1012%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted%2BItems&icid2=hero:hbr:main:hmp:m1012:mulb:ut70off:02:R1:clp:bx:010" target="_blank">
+                        <a href="https://www.tatacliq.com/womens-clothing/c-msh10?q=%3Arelevance%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00015%3Abrand%3AMBH11A00001%3AdiscountFlag%3A50%2525%2B-%2B70%2525%3AdiscountFlag%3A70%2525%2Band%2Bmore&icid2=hero:hbr:main:hmp:m10:mulb:min60off:05:R1:clp:bx:010" target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/27113404039198.jpg"
+                                 src="//assets.tatacliq.com/medias/sys_master/images/27120455647262.jpg"
                                  width="1100px"></a>
                         <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear/c-msh1012?q=%3Arelevance%3Acategory%3AMSH1012%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted%2BItems&icid2=hero:hbr:main:hmp:m1012:mulb:ut70off:02:R1:clp:bx:010" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
@@ -163,7 +163,7 @@
                                  width="310px" ></a>
                     </center>
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"><a
-                                href="https://www.tatacliq.com/end-of-season-sale?&icid2=eoss:boc:tmain:hmp:m00:mulb:best:01:R18:them:Bx:001" target="_blank">End Of Season Sale - Up To 75% OFF</a></span>
+                                href="https://www.tatacliq.com/end-of-season-sale?&icid2=eoss:boc:tmain:hmp:m00:mulb:best:01:R18:them:Bx:001" target="_blank">The Cliq Cliq Sale - Up To 80% OFF</a></span>
                         / Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 

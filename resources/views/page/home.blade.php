@@ -508,7 +508,7 @@
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-4 pad-l-5">
-                            <a class="f-s-18 f-c-white" id="btn-pickup-schedule" href="https://www.shopprecouriers.com/schedule-pickup">
+                            <a class="f-s-18 f-c-white" id="btn-pickup-schedule" href="https://www.shopprecouriers.com/schedule-pickup" target="_blank">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
                                     <h5 class="f-s-18 f-c-white txt-a-c box-margin-top">Best Courier Service
                                         <br>(Schedule Pickup)<br></h5>
@@ -975,7 +975,7 @@
                             Need to courier something abroad for a loved one? Worry No More Re! Just Shopp Re!</p>
                     </div>
                     <center>
-                        <a href="https://www.shopprecouriers.com/schedule-pickup">
+                        <a href="https://www.shopprecouriers.com/schedule-pickup" target="_blank">
                             <div class="btn-our-courier btn-font-size" id="btn-our-courier">
                                 <p>
                                     Schedule a Pickup
@@ -1222,7 +1222,7 @@
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
 
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">288 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">290 Google Reviews</p>
 
                                 </a>
                                 <br>
@@ -1236,12 +1236,12 @@
                                 <br>
                                 <div style="background-color: blue; max-width: 86px; border-radius: 20px; height: 40px;">
                                 <p class="p-name" style="font-size: 23px; padding-top: 6px; padding-left: 10px;color: white;">
-                                    <span >4.61</span>
+                                    <span >4.6</span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
                                 </div>
                                 <a href="https://www.facebook.com/pg/goshoppre/reviews" target="_blank">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 100</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 128</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787; margin-top: -6px ">Packaging Supplies and Service</p>
@@ -1434,15 +1434,16 @@
             <p>Our Shop&Ship enables online shopping from India and shipping to the USA, UK, UAE, Australia etc.-
                 (you name it, we ship there) - with a streamlined set of services & an ease that you’ve never known
                 before.
-                You can <a href="{{route('stores1')}}">shop around on Indian stores</a> as much as you want, we’re here
+                You can <a href="https://www.shoppreparcels.com/best-online-shopping-sites-in-india/" target="_blank">shop around on Indian stores</a>
+                as much as you want, we’re here
                 to take it from there. </p>
 
             <h1>Schedule a Pickup from ANYWHERE in India, we’ll come to the door to pick it up!</h1>
 
             <p>Sending a courier abroad from India is now made extremely easy by ShoppRe Courier.
                 We impart personalized attention to each package we handle, and offer country-specific
-                discounts; making it the <a href="{{route('ics.index')}}">cheapest international courier service in
-                    India!</a></p>
+                discounts; making it the <a href="https://www.shopprecouriers.com/international-courier-shipping-services-india" target="_blank">
+                cheapest international courier service in India!</a></p>
 
             <h1>Is it possible to shop online from India without any hassles, you ask?</h1>
 
@@ -1507,44 +1508,44 @@
             <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
                 <ul class="nav-ul">
                     <li class="li"><a itemprop="url" class=""
-                                      href="/international-courier-charges-india-to-canada-per-kg">Courier from India to
-                            Canada</a></li>
+                                      href="https://www.shopprecouriers.com/international-courier-charges-india-to-canada-per-kg" target="_blank">
+                                      Courier from India to Canada</a></li>
                     <li class="li"><a itemprop="url" class=""
-                                      href="/international-courier-charges-india-to-germany-per-kg"> Courier from India
+                                      href="https://www.shopprecouriers.com/international-courier-charges-india-to-germany-per-kg" target="_blank"> Courier from India
                             to Germany</a></li>
                     <li class="li"><a itemprop="url" class=""
-                                      href="/international-courier-charges-india-to-singapore-per-kg">Courier from India
+                                      href="https://www.shopprecouriers.com/international-courier-charges-india-to-singapore-per-kg" target="_blank">Courier from India
                             to Singapore</a></li>
                     <li class="li"><a itemprop="url" class=""
-                                      href="/international-courier-charges-india-to-australia-per-kg">Courier from India
+                                      href="https://www.shopprecouriers.com/international-courier-charges-india-to-australia-per-kg" target="_blank">Courier from India
                             to Australia</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Uzbekistan">Courier Services
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Uzbekistan" target="_blank">Courier Services
                             to Uzbekistan</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/courier-charges-from-pune-to-california">Courier
+                    <li class="li"><a itemprop="url" class="" href="/courier-charges-from-pune-to-california" target="_blank">Courier
                             Services to California</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg">Courier
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg" target="_blank">Courier
                             from Hyderabad to Texas</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/courier-charges-from-ahmedabad-to-dubai">Courier
+                    <li class="li"><a itemprop="url" class="" href="/courier-charges-from-ahmedabad-to-dubai" target="_blank">Courier
                             from Ahmedabad to Dubai</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
                 <ul class="nav-ul">
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Denmark">Shipping from India
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Denmark" target="_blank">Shipping from India
                             to Denmark</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Uganda">Shipping from India
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Uganda" target="_blank">Shipping from India
                             to Uganda</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Finland">Shipping from India
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Finland" target="_blank">Shipping from India
                             to Finland</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Lithuania">Shipping from
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Lithuania" target="_blank">Shipping from
                             India to Lithuania</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Morocco">Shipping from India
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Morocco" target="_blank">Shipping from India
                             to Morocco</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/cheap-and-fast-shipping-service-from-india-to-usa">Shipping
+                    <li class="li"><a itemprop="url" class="" href="/cheap-and-fast-shipping-service-from-india-to-usa" target="_blank">Shipping
                             United States from India</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Fiji">Shipping Fiji South
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Fiji" target="_blank">Shipping Fiji South
                             Pacific from India</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Bangladesh">Shipping
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Bangladesh" target="_blank">Shipping
                             Bangladesh from India</a></li>
                 </ul>
             </div>

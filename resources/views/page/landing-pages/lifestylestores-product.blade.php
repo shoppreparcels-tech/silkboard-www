@@ -151,7 +151,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">February 2020 Sale: The Pay Yay Weekend /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JUNE 2020 Sale /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    : <span class="f-s-25 f-c-red f-w-9">Dil Se Diwali</span>--}}
                 </div>
@@ -177,7 +177,7 @@
 {{--                <center>--}}
 {{--                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">--}}
 {{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Mobile_2-19FEB20200.gif"--}}
+{{--                             src="9FEB20200.gif"--}}
 {{--                             width="350px" ></a>--}}
 {{--                </center>--}}
 {{--            </div>--}}

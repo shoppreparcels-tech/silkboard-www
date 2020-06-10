@@ -137,15 +137,15 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.ajio.com/s/nail-the-sail-3983-76451" target="_blank">
+                    <a href="https://www.ajio.com/shop/sale" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/h73/h75/16720711352350/02062020-D-UNISEX-TopBanner-PaydaySale-40to80Extra20.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h86/hb7/16636173123614/28052020-D-UNISEX-Trends-B1-FinalClearance-Flat60Off.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/s/nail-the-sail-3983-76451" target="_blank">
+                        <a href="https://www.ajio.com/shop/sale" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h7a/h43/16720711057438/02062020-M-UNISEX-TopBanner-PaydaySale-40to80Extra20.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/hd7/hee/16636169125918/28052020-M-UNISEX-Trends-B1-FinalClearance-Flat60Off.jpg"
                                  width="300px" ></a>
                     </center>
                     <br>

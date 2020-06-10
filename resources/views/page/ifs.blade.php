@@ -107,7 +107,7 @@
 
                     </p>
                     <h1 class="header1 p-color-white">Shop Indian Stores <span> & Ship Worldwide</span></h1>
-                    <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
+                    <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we will store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
                     <a href="/customer/register" class="btn btn-s-b btn-b-g" target="_blank">Sign Up & Receive FREE Virtual Address</a>
                     <br>
@@ -121,13 +121,10 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://bit.ly/updates-on-shipping" title="Services Alert" target="_blank">
-                 We are Resuming Our Shipping Services for Non-essential Goods</a>
-{{--                <a href="/flipkart-online-shopping" title="Flipkart" target="_blank">2. Biggest End Of Season Sale</a> |--}}
-{{--                <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉ALL THINGS SUMMER</a> |--}}
-{{--                <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉BIG BAG DAYS</a> |--}}
-{{--                <a href="/online-books-shopping-india-international-shipping" title="Ajio" target="_blank">4. 👉THE BOOK PARADISE</a>--}}
-            </marquee>
+               <a href="/myntra-online-shopping" title="Myntra" target="_blank">1. 👉MADE IN INDIA</a> |
+               <a href="/flipkart-online-shopping" title="Flipkart" target="_blank"> 2. HANDPICKED STYLES</a> |
+              <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉FINAL CLEARANCE</a>
+             </marquee>
         </div>
         <div class="container" id="how-it-works">
             <div>

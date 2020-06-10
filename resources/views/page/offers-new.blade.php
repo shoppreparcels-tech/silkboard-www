@@ -131,7 +131,7 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/university-offer" target="_blank">
+                                <a href="https://www.shopprecouriers.com/best-international-courier-service-for-students" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>
                                 </a>
                             </div>
@@ -277,8 +277,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">under 699 </h4>
-                            <h5 class="header6 p-color-cement font-weight-900">1st - 3rd June</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Handpicked Styles</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Under ₹99</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -290,8 +290,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">flat store</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">100K + Products on Sale</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Best Selling Kurtas</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">10K + Products on Sale</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/limeroad-online-shopping" target="_blank">
@@ -304,8 +304,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">march Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">June Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/chumbak-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a68d693f754.png"/>
@@ -333,8 +333,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">payday Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900"> 40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">final clearance</h4>
+                            <h5 class="header6 p-color-cement font-weight-900"> Flat 60% Off</h5>
 {{--                            <h5 class="header6 p-color-cement font-weight-900">2nd-4th June</h5>--}}
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping" target="_blank">
@@ -348,8 +348,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Made in india</h4>
-{{--                            <h5 class="header6 p-color-cement font-weight-900"> 40-70% Off </h5>--}}
-                            <h5 class="header6 p-color-cement font-weight-900"> Launching Spring Summer'20 </h5>
+                           <h5 class="header6 p-color-cement font-weight-900">200+ Brands</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -363,13 +362,13 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900"> wear the new</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">S/S 2020</h5>
-{{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Womens Fashoin</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+        {{-- <div class="ecomSmallBox" style="height: 94px;"> --}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-india-shop-international-shipping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">AMAZON.in</p>
-{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>--}}
+        {{--  <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/> --}}
                                 </a>
                             </div>
                         </div>
@@ -378,7 +377,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ethnic style</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ethnic wear</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Upto 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/shoppersstop-online-shopping" target="_blank">
@@ -433,7 +432,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">GET TRENDY THIS SPRING</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Toys and Games</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/firstcry-online-shopping" target="_blank">
@@ -613,7 +612,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
                                         href="/shop-ship">Shop & Ship Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a
-                                        href="/university-offer">Student Special Offer</a></span></li>
+                                        href="https://www.shopprecouriers.com/best-international-courier-service-for-students" target="_blank">Student Special Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="valentine"><span><a
                                         href="/send-valentines-day-gifts-international-shipping">Valentine's Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a

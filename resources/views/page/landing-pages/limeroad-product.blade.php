@@ -165,11 +165,11 @@
             </div>
             <div class="row">
                 <center>
-                <a href="https://www.limeroad.com/shopping-offers" target="_blank">
+                <a href="https://www.limeroad.com/clothing/ethnic-wear/kurta-kurtis" target="_blank">
                     <img class="img-desktop-view"
                          src="http://img1.junaroad.com//assets/images/mobileNotif/1487922743212.jpg"
                          width="1100px"></a>
-                    <a href="https://www.limeroad.com/shopping-offers" target="_blank">
+                    <a href="https://www.limeroad.com/clothing/ethnic-wear/kurta-kurtis" target="_blank">
                     <img class="img-mobile-view img-shopperstop-offer"
                          src="http://img1.junaroad.com//assets/images/mobileNotif/1487937410009.jpg"
                          width="310px" ></a>

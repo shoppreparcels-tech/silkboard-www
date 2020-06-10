@@ -166,7 +166,7 @@
                                  width="370px" ></a>
                     </center>
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                        <span class="f-s-25 f-c-red f-w-9"> Beauty Bonanza (January 2020 )</span> /
+                        <span class="f-s-25 f-c-red f-w-9"> (JUNE 2020 )</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">

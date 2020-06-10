@@ -139,7 +139,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">March 2020 Sale /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JUNE 2020 Sale /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}

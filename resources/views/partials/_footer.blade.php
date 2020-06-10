@@ -67,9 +67,9 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">Prohibited Items</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/terms-and-conditions">Terms & Conditions</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy">Privacy Policy</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
+                   {{-- <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li> --}}
                     <li class="li"><a class="footer-a" href="{{route('reviews')}}">ShoppRe Reviews</a></li>
-                    <li class="li"><a class="footer-a" href="{{route('feedback.Index')}}">Feedback</a></li>
+                    <li class="li"><a class="footer-a" href="{{route('feedback.Index')}}">Give Us Feedback</a></li>
                     <li class="li"><a class="footer-a" href="https://shoppretracking.aftership.com" target="_blank">Track Your Shipment</a></li>
                     <li class="li"><a class="footer-a" href="https://expeditions.shoppre.com" target="_blank">Expeditions</a></li>
 
@@ -77,9 +77,9 @@
             </div>
             <div class="col-md-3 col-lg-3 col-sm-7 col-xs-8 pad-5">
                 <ul class="nav-ul">
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('medicine')}}">ShoppRe Medicine Courier</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="/university-offer">ShoppRe Documents Courier</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('packers-movers')}}" >ShoppRe Packers & Movers</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="https://www.shopprecouriers.com/medicine-international-courier-from-india" target="_blank">ShoppRe Medicine Courier</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="https://www.shopprecouriers.com/best-international-courier-service-for-students" target="_blank">ShoppRe Documents Courier</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="https://www.shopprecouriers.com/best-international-relocation-packers-movers" target="_blank">ShoppRe Packers & Movers</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('forwarding')}}">ShoppRe Package Forwarding</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('voucher')}}">ShoppRe Shipping Voucher</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/seller-partner" >ShoppRe for Sellers Shipping</a></li>

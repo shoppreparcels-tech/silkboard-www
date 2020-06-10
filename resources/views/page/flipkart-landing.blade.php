@@ -74,7 +74,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - June 2020 SALE
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - International Delivery
 {{--                        <br> [ 👉 <a href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER</a> From ₹499]</h2>--}}
 
                 </div>
@@ -157,7 +157,7 @@
                     you can find, to assist with your shopping from say, Flipkart India</h4>
                 <br>
                 <p class="header4 p-color-cement">We’re a shipping & consolidation company that specializes in domestic & international logistic solutions.
-                    We  handle over ₹1,000,000 worth of E-Commerce shipments and 2000 <a href="{{route('ics.index')}}">Courier pickup requests</a> a month! A potential customer can shop from 1000+
+                    We  handle over ₹1,000,000 worth of E-Commerce shipments and 2000 <a href="https://www.shopprecouriers.com/" target="_blank">Courier pickup requests</a> a month! A potential customer can shop from 1000+
                     desi/Indian online stores and, we ship those packages/couriers off to 220+ countries around the world. Our vision has always been
                     to be of help to the Global Indian Community, and their need to shop authentic products from India, and help them ship it all in at a reasonable cost. </p>
                 <br>

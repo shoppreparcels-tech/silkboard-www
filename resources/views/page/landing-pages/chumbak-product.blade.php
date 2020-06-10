@@ -122,19 +122,21 @@
 
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
-{{--            <div class="row">--}}
-{{--                <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">--}}
-{{--                    <img class="img-desktop-view" src="https://images.prismic.io/chumbakapp/d56e773f-e2c8-449a-b6ed-66f1aaecfaf4_Updated-3.jpg?auto=compress,format" width="1100px"></a>--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">--}}
-{{--                        <img class="img-mobile-view img-shopperstop-offer" src="https://images.prismic.io/chumbakapp/eee99a9d-f74d-492e-8b7d-9664ae3c9837_Updated-4.jpg?auto=compress,format" width="320px" ></a>--}}
-{{--                </center>--}}
-{{--                <div class="">--}}
-{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 /--}}
-{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
+           <div class="row">
+               <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
+                  <img class="img-desktop-view"
+                  src="https://images.prismic.io/chumbakapp/fecca70d-34b9-4322-8bf9-4490474b95c8_page-banner-Desktop%5B4%5D.jpg" width="1100px"></a>
+              <center>
+                   <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
+                      <img class="img-mobile-view img-shopperstop-offer"
+                      src="https://images.prismic.io/chumbakapp/f820cd24-e859-4317-a6e1-93021c19faca_page-banner-Mobile%5B1%5D.png" width="320px" ></a>
+                </center>
+              <div class="">
+                   <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JUNE 2020 /
+                        Below are the Recommended & Recently Shipped Products!</h2>
 
-{{--                </div>--}}
-{{--            </div>--}}
+               </div>
+            </div>
 
             <div class="row text-center">
 

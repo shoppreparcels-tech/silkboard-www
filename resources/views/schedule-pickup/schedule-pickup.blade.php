@@ -142,8 +142,8 @@
         <div class="container">
             <div class="col-md-6 col-xs-12 pad-t-20">
                 <h3 class="f-s-25 font-weight-900 f-c-d-greay">Schedule Your Pickup :<span class="f-c-red f-s-16">
-                    <br>Learn More 👉 <a href="{{route('ics.index')}}" target="_blank"
-                                                              title="Click Here: How to Courier?"><span
+                    <br>Learn More 👉 <a href="https://www.shopprecouriers.com/international-courier-shipping-services-india"
+                    target="_blank" title="Click Here: How to Courier Abroad?"><span
                                     class="f-c-blue">How to send a parcel by courier?</span></a>
                     </span></h3>
             </div>
@@ -601,8 +601,8 @@
                         <div class="f-s-24 f-c-d-gray f-w-8 txt-align-c margin-b-10">General Information</div>
                             <center>
                         <div class="f-s-18 f-c-d-gray f-w-8 margin03"> <a href="http://shoppretracking.aftership.com" target="_blank">Track your shipment online</a></div>
-                        <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="/offers" target="_blank"> International shipping offers</a></div>
-                         <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Earn ₹500/- on each Referral</a></div>
+                        <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://www.shopprecouriers.com/faq" target="_blank">International Courier FAQ</a></div>
+                         <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://www.shoppre.com/refer-a-friend" target="_blank">Earn ₹500/- on each Referral</a></div>
                           <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">Restricted and Prohibited Items</a></div>
                             </center>
                             </div>
@@ -623,7 +623,7 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">Can ShoppRe pickup your package from your home?</h2>
-            <p class="f-s-16 f-c-gray">The most exciting feature of <a href=""{{route('ics.index')}} >ShoppRe
+            <p class="f-s-16 f-c-gray">The most exciting feature of <a href="https://www.shopprecouriers.com" target="_blank">ShoppRe
                     Courier</a> is that we reach every nook and cranny of our country. You can schedule a pickup of a
                 package
                 from ANYWHERE in India, and our experts will come to pick it up and dispatch it in just 48 hours; only

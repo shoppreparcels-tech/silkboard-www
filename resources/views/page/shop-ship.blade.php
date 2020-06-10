@@ -59,7 +59,7 @@
                        <br>
                        <br>
                        {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                       <a  style="margin-top: 10px;" href="http://bit.ly/shpr-ipfs"
+                       <a  style="margin-top: 10px;" href="https://api.whatsapp.com/send?phone=919148357733"
                            target="_blank" class="btn btn-s-b btn-a-l btn-b-g col-xs-12">
                            Message us on WhatsApp</a>
                        {{--</button>--}}
@@ -76,12 +76,9 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://bit.ly/updates-on-shipping" title="Services Alert" target="_blank">
-                             We are Resuming Our Shipping Services for Non-essential Goods</a>
-{{--                            <a href="/flipkart-online-shopping" title="Flipkart" target="_blank">2. 👉Biggest End Of Season Sale</a> |--}}
-{{--                            <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉ALL THINGS SUMMER</a> |--}}
-{{--                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉BIG BAG DAYS</a> |--}}
-{{--                            <a href="/online-books-shopping-india-international-shipping" title="Ajio" target="_blank">4. 👉THE BOOK PARADISE</a>--}}
+                            <a href="/myntra-online-shopping" title="Myntra" target="_blank">1. 👉MADE IN INDIA</a> |
+                            <a href="/flipkart-online-shopping" title="Flipkart" target="_blank"> 2. HANDPICKED STYLES</a> |
+                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉FINAL CLEARANCE</a>
                         </marquee>
                     </div>
                     <center>
@@ -145,7 +142,7 @@
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 31st JAN 2020</span></p>
+                                    class="startsValidValue"> 30th JUN 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -314,7 +311,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
-                    <a href="tel:+91-8277919191" class="header2 p-color-white">+91 8277 919191</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 9148357733</a>
 
                 </div>
 
@@ -360,7 +357,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
-                    <a href="tel:+91-8277919191" class="header2 p-color-white">+91 8277 919191</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 9148357733</a>
 
                 </div>
 

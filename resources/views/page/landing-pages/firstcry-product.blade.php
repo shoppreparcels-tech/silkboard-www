@@ -150,27 +150,27 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">February 2020 Sale:
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JUNE 2020 Sale:
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 
             </div>
-{{--            <div class="row">--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">--}}
-{{--                        <img class="img-desktop-view"--}}
-{{--                             src="https://cdn.fcglcdn.com/brainbees/banners/hp_2020217171720.webp"--}}
-{{--                             --}}{{--                         width="800px"--}}
-{{--                             width="1100px"--}}
-{{--                        ></a>--}}
-{{--                </center>--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">--}}
-{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                             src="https://cdn.fcglcdn.com/brainbees/banners/mobile/mobile_default_the_99-_store_2020217171728.webp"--}}
-{{--                             width="350px" ></a>--}}
-{{--                </center>--}}
-{{--            </div>--}}
+           <div class="row">
+              <center>
+                    <a href="https://www.firstcry.com/toys-and-gaming/5/0/0?sort=bestseller&ref2=Toys_06_combo0_d_10Jun20" target="_blank">
+                        <img class="img-desktop-view"
+                           src="https://cdn.fcglcdn.com/brainbees/banners/test/toys_Hp_20206920249.webp"
+                                               width="800px"
+                             width="1100px"
+                       ></a>
+                </center>
+                <center>
+                    <a href="https://www.firstcry.com/toys-and-gaming/5/0/0?sort=bestseller&ref2=Toys_06_combo0_d_10Jun20" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://cdn.fcglcdn.com/brainbees/banners/mobile/test/0-2_Mobile_20206920255.webp"
+                             width="350px" ></a>
+               </center>
+           </div>
             <div class="row text-center">
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">

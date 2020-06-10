@@ -85,21 +85,21 @@
             </div>
             <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in HAR PAL FASHIONABLE</h2>
             <div class="row text-center">
-{{--                <center>--}}
-{{--                <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"--}}
-{{--                   target="_blank">--}}
-{{--                    <img class="img-desktop-view"--}}
-{{--                         src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/wa_pc._SX3000_QL85_.jpg"--}}
-{{--                         width="1100px"></a>--}}
-{{--                    </center>--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"--}}
-{{--                       target="_blank">--}}
-{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                             src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/WA._SY1500_QL85_.jpg"--}}
-{{--                             width="310px" ></a>--}}
-{{--                </center>--}}
-{{--                <div class="col-sm-4">--}}
+              <center>
+            <a href="https://www.amazon.in/womens-fashion-sale/b?ie=UTF8&node=12621992031"
+                 target="_blank">
+                    <img class="img-desktop-view"
+                       src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Fashion/May_ART/WomensPage/PC/topbanner._V509694744_.jpg"
+                       width="900px"></a>
+                    </center>
+              <center>
+                    <a href="https://www.amazon.in/womens-fashion-sale/b?ie=UTF8&node=12621992031"
+                      target="_blank">
+                       <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Fashion/May_ART/WomensPage/Mobile/topbanner._V509694956_.jpg"
+                            width="310px" ></a>
+               </center>
+              <div class="col-sm-4">
 
 {{--                    <div class="shopandship ">--}}
 {{--                        <a href="/amazon-online-shopping" target="_blank">--}}
