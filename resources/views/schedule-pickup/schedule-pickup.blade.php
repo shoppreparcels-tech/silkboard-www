@@ -18,7 +18,7 @@
     <meta property="og:description"
           content="Need to Schedule a package pickup online? Schedule your parcel quickly with ShoppRe from your home or office and we will deliver for you within 3-6 business days."/>
     <meta property="og:site_name" content="ShoppRe: Online Shipping Site in India"/>
-
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/angular.min.js"></script>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="Go_Shoppre"/>
     <meta name="twitter:title" content="Schedule A Package Pickup with ShoppRe.com"/>
