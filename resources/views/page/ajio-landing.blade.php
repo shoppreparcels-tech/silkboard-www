@@ -42,7 +42,7 @@
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                         <a href="/ajio-online-shopping" title="AJIO" target="_blank">
-                            FINAL Clearance 60% Off | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                            Big Bold Sale 50-90% Off(11-15 June) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>
@@ -53,6 +53,8 @@
                         <center>
                             <a href="https://www.ajio.com/" title="Shop AJIO & Ship Worldwide through ShoppRe" target="_blank">
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png" alt="ajio.com"> </a>
+                                <br>
+                                <div class="fb-like" data-href="https://www.facebook.com/goshoppre" data-width="500" data-layout="button_count" data-action="recommend" data-size="large" data-share="true"></div>
                         </center>
                     </div>
                 </div>

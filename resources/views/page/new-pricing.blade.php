@@ -131,12 +131,12 @@
             </div>
 
         </div>
-        <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
+        {{--<marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
             <p class="f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
                <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
                 <span style="color: #11273b">We are Resuming Our Shipping Services for Non-essential Goods
             </p>
-        </marquee>
+        </marquee>--}}
 
         <div class="container div-b-l-w no-pad" style="padding-bottom: 30px">
             <div class="col-md-9 col-sm-8 col-xs-12">
@@ -148,8 +148,8 @@
                 </div>
                 <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
                     <p class="f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                       <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
-                        <span style="color: #11273b">These rates not applicable for medicine shipments, contact live chat.
+                       <span class="p-color-red" style="font-size: 14px">Note: </span>
+                        <span style="color: #11273b">These Rates not applicable for Medicine shipments, contact Live Chat support.
                     </p>
                 </marquee>
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20">

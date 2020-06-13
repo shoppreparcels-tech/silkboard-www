@@ -1408,8 +1408,14 @@
                     to Worldwide</h1>
                 <br>
                 <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-b btn-b-g">Create a Free ShoppRe account</a>
-                <br><br><br>
+                <br><br>
+                <br>
+                <div class="fb-like" data-href="https://www.facebook.com/goshoppre" data-width="400" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                <br>
+                <br>
+                <a href="https://twitter.com/Go_Shoppre?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Go_Shoppre</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </center>
+            <br>
         </div>
     </section>
 @endsection

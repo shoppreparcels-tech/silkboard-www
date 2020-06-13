@@ -190,6 +190,8 @@
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com"></a>
+                           <br>
+                           <div class="fb-like" data-href="https://www.facebook.com/goshoppre" data-width="500" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
                    </center>
                 </div>
             </div>

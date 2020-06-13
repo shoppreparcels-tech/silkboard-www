@@ -123,7 +123,7 @@
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                <a href="/myntra-online-shopping" title="Myntra" target="_blank">1. 👉MADE IN INDIA</a> |
                <a href="/flipkart-online-shopping" title="Flipkart" target="_blank"> 2. HANDPICKED STYLES</a> |
-              <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉FINAL CLEARANCE</a>
+              <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉BIG BOLD SALE</a>
              </marquee>
         </div>
         <div class="container" id="how-it-works">

@@ -93,7 +93,7 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 ic">
                         <div class="col-md-6 col-xs-6 no-pad">
-                            <h2 class="f-s-16 f-c-blue  txt-a-l f-w-9"><a href="{{route('ics.index')}}">International Courier</a></h2>
+                            <h2 class="f-s-16 f-c-blue  txt-a-l f-w-9"><a href="https://www.shopprecouriers.com/schedule-pickup" target="_blank">International Courier</a></h2>
                             <p class="f-s-12 f-c-l-gray  txt-a-l">Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
@@ -151,7 +151,7 @@
                 <h4 class="f-s-18 f-c-gray f-w-9">Why choose us?</h4>
                 <br>
                 <p class="header4 p-color-cement">We offer all kinds of <a href="https://www.shoppre.com/international-parcel-forwarding-india-online-shopping" target="_blank">parcel forwarding</a> and
-                    <a href="https://www.shoppre.com/international-courier-shipping-services-india" target="_blank">courier services</a> with 60-80% cheaper shipping rates anywhere in the world.
+                    <a href="https://www.shopprecouriers.com/international-courier-shipping-services-india" target="_blank">courier services</a> with 60-80% cheaper shipping rates anywhere in the world.
                     We also store, repackage, consolidate, and ship the orders in a very efficient manner. All of this results in full customer gratification.
                     <br> <br>
                     While shopping with ShoppRe, you can rest assured. Once you place the order, we take over. Believing customers to be our priority, we take the utmost care of your shipment so that you receive it intact.
@@ -167,17 +167,7 @@
                     </p>
                     <br>
                     <ul>
-                        <li>Myntra Maxessorize Sale, 1st to 2nd August 2019</li>
-                        <li>Myntra Right to Fashion Sale, 09th to 12th August 2019</li>
-                        <li>The Final Clearance Sale, 24th to 26th August 2019</li>
-                        <li>Myntra Big Billion Days Sale, September 2019</li>
-                        <li>Myntra Diwali Sale, 25th to 27th October 2019</li>
-                        <li>Just Kidding(40-70% Off) 13th - 14th November 2019 </li>
-                        <li>Mid Season Sale, 16th to 19th November 2019</li>
-                        <li>Comic Con India, 25th to 27th November 2019</li>
-                        <li>BLACK FRIDAY SALE, 29th Nov to 1st December 2019</li>
-                        <li>END OF REASON SALE, 22nd to 25th December 2019</li>
-                        <li><a href="/myntra-online-shopping">GRAND CLEARANCE SALE</a>, 9th to 12th January 2020</li>
+                        <li><a href="/myntra-online-shopping">END REASON SALE</a>, 19th to 22nd June 2020</li>
                     </ul>
                 </div>
                 <br>
