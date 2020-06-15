@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Fabindia Online Shopping International Shipping | ShoppRe')
+@section('title', 'Fabindia Online Shopping India | International Shipping | ShoppRe')
 @section('description', 'Fabindia Traditional Clothing, Classic Kurtas, Home Linen, Beauty Products Online Shopping from India with ShoppRe International Shipping. Buy Now!')
 @section('keywords', 'kurtas, kurtis, home linen, women shopping, handwoven dupattas, salwars, jhumkas, tops')
 
@@ -164,7 +164,7 @@
                                 src="https://www.fabindia.com/file/general/SALE-BANNER-MOB-2.jpg"
                                 width="350px" ></a>
                    </center>
-                   <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">June 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /
+                   <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">June 2020 Sale <span class="f-s-25 f-c-red f-w-9"></span> /
                        Below are the Recommended & Recently Shipped Products!</h2>
                </div>
              {{--<div class="col-md-4 col-xs-12 text-center margin-tp">

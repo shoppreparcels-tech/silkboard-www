@@ -347,8 +347,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Made in india</h4>
-                           <h5 class="header6 p-color-cement font-weight-900">200+ Brands</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of reason sale</h4>
+                           <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -462,7 +462,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the cliq cliq sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Ethnic Waer</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">

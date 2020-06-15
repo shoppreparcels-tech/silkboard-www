@@ -285,7 +285,7 @@
             </div>
         </div>
         <br>
-        <center> <a href="http://bit.ly/shpr-seller" target="_blank">
+        <center> <a href="https://bit.ly/3ftPwnP" target="_blank">
                 <div class="btn header6 btn-get-assisted p-color-white no-margin" style="background-color: #25D366">
                     <center>
                         WhatsApp Here

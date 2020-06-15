@@ -167,16 +167,9 @@
                     </center>
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
                         <span class="f-s-25 f-c-red f-w-9"> (JUNE 2020 )</span> /
-                        Below are the Recommended & Recently Shipped Products!</h2>
+                        Below are the Recommended & Recently Shipped Products from NYKAA!</h2>
                 </div>
-                <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <div class="">
-                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Nykaa" target="_blank">
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
-                            <span class="font-16"></span>
-                        </a>
-                    </div>
-                </div>
+
             </div>
             <div class="row text-center">
 

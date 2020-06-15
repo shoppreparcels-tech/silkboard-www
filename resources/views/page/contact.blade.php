@@ -212,7 +212,7 @@
                     </div>
                     <div class="no-padding address-details">
                         <span class="under-line"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/line.png"></span>
-                        <h5><a href="https://www.google.com/maps/place/ShoppRe+-+International+Courier+Services/@10.1286685,76.340947,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x77986d2a1f5f489f!8m2!3d10.1286685!4d76.3431357"
+                        <h5><a href="https://g.page/shoppre-kerala/"
                          target="_blank">KOCHI - INDIA</a></h5>
                         <p>
                         Heritage Events, #16/391,

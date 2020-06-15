@@ -153,17 +153,17 @@
             <div class="row">
                 <div class="">
                     <center>
-                        <a href="https://www.tatacliq.com/womens-clothing/c-msh10?q=%3Arelevance%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00015%3Abrand%3AMBH11A00001%3AdiscountFlag%3A50%2525%2B-%2B70%2525%3AdiscountFlag%3A70%2525%2Band%2Bmore&icid2=hero:hbr:main:hmp:m10:mulb:min60off:05:R1:clp:bx:010" target="_blank">
+                        <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear/c-msh1012?q=%3Arelevance%3Acategory%3AMSH1012%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items&icid2=hero:hbr:clp:wom:m1012:mulb:best:05:R2:clp:bx:001" target="_blank">
                             <img class="img-desktop-view"
-                                 src="//assets.tatacliq.com/medias/sys_master/images/27120455647262.jpg"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/26825151414302.jpg"
                                  width="1100px"></a>
-                        <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear/c-msh1012?q=%3Arelevance%3Acategory%3AMSH1012%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted%2BItems&icid2=hero:hbr:main:hmp:m1012:mulb:ut70off:02:R1:clp:bx:010" target="_blank">
+                        <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear/c-msh1012?q=%3Arelevance%3Acategory%3AMSH1012%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items&icid2=hero:hbr:clp:wom:m1012:mulb:best:05:R2:clp:bx:001" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/27115809439774.jpg"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/26825151414302.jpg"
                                  width="310px" ></a>
                     </center>
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"><a
-                                href="https://www.tatacliq.com/end-of-season-sale?&icid2=eoss:boc:tmain:hmp:m00:mulb:best:01:R18:them:Bx:001" target="_blank">The Cliq Cliq Sale - Up To 80% OFF</a></span>
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">Indianwear
+                    for every season<span>
                         / Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 
@@ -654,7 +654,7 @@
                         <center>
                             <div class="EcomBox">
                                 <h4 class="header4 p-color-blue text-transform-u font-weight-900">MensXP MUD</h4>
-                                <h5 class="header6 p-color-cement font-weight-900">From ₹600</h5>
+                                <h5 class="header6 p-color-cement font-weight-900">From ₹390</h5>
                                 <div class="ecomSmallBox">
                                     <a href="https://shop.mensxp.com/all-brands/beauty-brands/mensxp-mud" target="_blank">
                                         <p class="header3 p-color-cement-dark font-weight-900">MENSXP</p>

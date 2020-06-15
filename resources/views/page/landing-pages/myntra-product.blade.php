@@ -310,24 +310,22 @@
         <div class="container fst-service" style="margin-top: 0px;">
            <div class="row">
                <center>
-               <a href="https://www.myntra.com/shop/made-in-india-20"
+               <a href="https://www.myntra.com/shop/eors-jun20-prebuzz"
                     target="_blank">
                    <img class="img-desktop-view"
-                        src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/8/a7a78034-16a3-4a37-b265-252cc9bd70281591629761456-MII-desktop-banner.jpg"
-                        width="800px"
-                        width="1100px"
-                   ></a>
+                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/14/3875384d-7bcb-4cc2-b113-6dce4576ff651592153121234-dk-revealing-tomorrow.jpg"
+                        width="900px"></a>
                    </center>
                <center>
-                   <a href="https://www.myntra.com/shop/made-in-india-20"
+                   <a href="https://www.myntra.com/shop/eors-jun20-prebuzz"
                             target="_blank">
                        <img class="img-mobile-view img-shopperstop-offer"
-                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/8/32fb993e-259f-42dd-a298-ad1b3ae6f83a1591629761496-made-in-india.jpg"
+                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/14/267679bd-d323-4459-bec5-25b46d8cd3cc1592153121290-revealing-tomorrow.jpg"
                             width="350px" ></a>
                </center>
                <div class="">
                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                       Below are the Recommended & Recently Shipped Products from Myntra India!</h2>
+                       Shop during "End of Reason Sale" & get ₹200 Off on Shipping Myntra Products to Any Country.</h2>
                </div>
            </div>
 
@@ -503,6 +501,8 @@
             </div>
 
             <div class="row text-center">
+            <br>
+            <br>
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Men's Fashion</h2>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">

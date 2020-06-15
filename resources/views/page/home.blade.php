@@ -303,7 +303,7 @@
                     <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
                         <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
                            <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
-                            We are Resuming Our Shipping Services for Non-essential Goods
+                            We are Resuming Our Shipping Services for Non-essential & essential Goods.
                         </p>
                     </marquee>
                         </p>
@@ -616,6 +616,7 @@
 
 
     <section>
+    <br>
         <div class="container">
             {{--<div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">--}}
             <center>
@@ -988,7 +989,7 @@
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
 
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">290 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">291 Google Reviews</p>
 
                                 </a>
                                 <br>
@@ -1007,7 +1008,7 @@
                                 </p>
                                 </div>
                                 <a href="https://www.facebook.com/pg/goshoppre/reviews" target="_blank">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 128</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 129</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787; margin-top: -6px ">Packaging Supplies and Service</p>
