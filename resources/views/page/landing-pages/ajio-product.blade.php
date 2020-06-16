@@ -137,15 +137,15 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.ajio.com" target="_blank">
+                    <a href="https://www.ajio.com/s/whp-40-to-70-percent-off-3997-87224" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/hd1/h44/16880685547550/11062020-D-WHP-topbanner-5090.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/hbb/h21/16986348060702/16062020-D-WHP-TopBanner-P1-flat60.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com" target="_blank">
+                        <a href="https://www.ajio.com/s/whp-40-to-70-percent-off-3997-87224" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h4a/h00/16878595768350/11062020-M-UNISEX-TopBanner-BigBoldSale-50to90.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/hca/hc5/16986346127390/16062020-M-WHP-TopBanner-P1-flat60.jpg"
                                  width="300px" ></a>
                     </center>
                     <br>

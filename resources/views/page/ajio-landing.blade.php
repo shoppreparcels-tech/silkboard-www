@@ -42,7 +42,7 @@
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                         <a href="/ajio-online-shopping" title="AJIO" target="_blank">
-                            Big Bold Sale 50-90% Off(11-15 June) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                            Style Do The Talking Sale 60% Off | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>
