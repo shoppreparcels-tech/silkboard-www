@@ -121,9 +121,10 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-               <a href="/myntra-online-shopping" title="Myntra" target="_blank">1. 👉END OF REASON SALE</a> |
-               <a href="/flipkart-online-shopping" title="Flipkart" target="_blank"> 2. HANDPICKED STYLES</a> |
-              <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉STYLE DO THE TALKING</a>
+                    <a href="/myntra-online-shopping" title="Myntra" target="_blank">1. 👉 END OF REASON SALE</a> |
+                    <a href="/ajio-online-shopping" title="Ajio" target="_blank">2. 👉 AJIOMANIA SALE</a> |
+                    <a href="/amazon-online-shopping" title="amazon" target="_blank">3. 👉 WARDROBE REFRESH SALE</a> |
+                    <a href="/flipkart-online-shopping" title="Flipkart" target="_blank"> 4. 👉 HANDPICKED STYLES</a>
              </marquee>
         </div>
         <div class="container" id="how-it-works">

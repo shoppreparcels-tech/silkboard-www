@@ -333,9 +333,9 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG BOLD SALE</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE AJIOMANIA SALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
-{{--                            <h5 class="header6 p-color-cement font-weight-900">2nd-4th June</h5>--}}
+{{--                            <h5 class="header6 p-color-cement font-weight-900">22nd-4th June</h5>--}}
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping" target="_blank">
                                     <img style="margin-top: -10%;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -362,8 +362,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Womens Fashoin</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WARDROBE REFRESH</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Upto 70% Off</h5>
         {{-- <div class="ecomSmallBox" style="height: 94px;"> --}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-india-shop-international-shipping" target="_blank">
@@ -449,7 +449,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big on style sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Indian Wear</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 30% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/nykaa-online-shopping" target="_blank">
@@ -462,7 +462,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Ethnic Waer</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Ethnic Wear</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">

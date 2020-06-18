@@ -156,13 +156,13 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.nykaafashion.com/?utm_source=nykaa&utm_medium=referral&utm_campaign=webstaticfocus&utm_content=webhp&transaction_id=826833f00dd44bc2cdbcfc208f5dc90a&intcmp=hp,focus_banner,2,nykaa-fashion-bags" target="_blank">
+                    <a href="https://www.nykaafashion.com/indian-wear" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://images-static.nykaa.com/uploads/tr:w-2702,/f6b67ee6-5ce9-4c72-a2f5-c2bd62e7e575.gif"
+                             src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/fermion/images/category_slider/img/tr:w-2698,/Indianwear.desktop140.jpg?rnd=20200526195200"
                              width="1100px"></a>
-                        <a href="https://www.nykaafashion.com/?utm_source=nykaa&utm_medium=referral&utm_campaign=webstaticfocus&utm_content=webhp&transaction_id=826833f00dd44bc2cdbcfc208f5dc90a&intcmp=hp,focus_banner,2,nykaa-fashion-bags" target="_blank">
+                        <a href="https://www.nykaafashion.com/indian-wear" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://images-static.nykaa.com/uploads/tr:w-720,/665bd781-32ce-47a6-9e71-c8daf008371e.gif"
+                                 src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/fermion/images/category_slider/img/tr:w-828,/Indianwear.mobile788.jpg?rnd=20200526195200"
                                  width="370px" ></a>
                     </center>
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">

@@ -86,17 +86,17 @@
             <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in HAR PAL FASHIONABLE</h2>
             <div class="row text-center">
               <center>
-            <a href="https://www.amazon.in/womens-fashion-sale/b?ie=UTF8&node=12621992031"
+            <a href="https://www.amazon.in/b/ref=sl_gw_feb20?node=6648217031&pf_rd_r=JZB77RST10CHKZYFK8G0&pf_rd_p=90df2f0c-4b49-47f5-b410-3c17e60adb26"
                  target="_blank">
                     <img class="img-desktop-view"
-                       src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Fashion/May_ART/WomensPage/PC/topbanner._V509694744_.jpg"
+                       src="https://m.media-amazon.com/images/G/31/img20/Fashion/EVENT/WRS20/TBUpdated/V2/1024x350-AF-PC-FST_PRIME._CB429393993_.jpg"
                        width="900px"></a>
                     </center>
               <center>
-                    <a href="https://www.amazon.in/womens-fashion-sale/b?ie=UTF8&node=12621992031"
+                    <a href="https://www.amazon.in/b/ref=sl_gw_feb20?node=6648217031&pf_rd_r=JZB77RST10CHKZYFK8G0&pf_rd_p=90df2f0c-4b49-47f5-b410-3c17e60adb26"
                       target="_blank">
                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Fashion/May_ART/WomensPage/Mobile/topbanner._V509694956_.jpg"
+                             src="https://m.media-amazon.com/images/G/31/img20/Fashion/EVENT/WRS20/TBUpdated/V2/Prime-FST-AF._SY1500_QL85_.jpg"
                             width="310px" ></a>
                </center>
               <div class="col-sm-4">

@@ -333,7 +333,7 @@
               {{-- <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
 
                 <br>
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Cloth Face Mask</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900">Cloth Face Mask</h2>
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26">
