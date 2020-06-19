@@ -153,13 +153,13 @@
             <div class="row">
                 <div class="">
                     <center>
-                        <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear/c-msh1012?q=%3Arelevance%3Acategory%3AMSH1012%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items&icid2=hero:hbr:clp:wom:m1012:mulb:best:05:R2:clp:bx:001" target="_blank">
+                        <a href="https://www.tatacliq.com/eoss-pbuzz?&icid2=eoss:cbc:main:hmp:m00:mulb:best:01:R11:clp:bx:010" target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/26825151414302.jpg"
+                                 src="//assets.tatacliq.com/medias/sys_master/images/27188426113054.gif"
                                  width="1100px"></a>
-                        <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear/c-msh1012?q=%3Arelevance%3Acategory%3AMSH1012%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items&icid2=hero:hbr:clp:wom:m1012:mulb:best:05:R2:clp:bx:001" target="_blank">
+                        <a href="https://www.tatacliq.com/eoss-pbuzz?&icid2=eoss:cbc:main:hmp:m00:mulb:best:01:R11:clp:bx:010" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/26825151414302.jpg"
+                                 src="//assets.tatacliq.com/medias/sys_master/images/27170703573022.gif"
                                  width="310px" ></a>
                     </center>
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">Indianwear
@@ -171,8 +171,8 @@
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/marriage-of-colours-women?&icid2=week:tsb:tmain:hmp:m10:mulb:best:01:R10:clp:bx:001" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645511184414.jpg">
+                        <a href="https://www.tatacliq.com/womens-clothing/c-msh10?q=%3Arelevance%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11B10517%3Abrand%3AMBH11B10522%3Abrand%3AMBH11B10518%3Abrand%3AMBH11B10513%3Abrand%3AMBH11B10515%3AdiscountAll%3ADiscounted%2BItems&icid2=mdo:ofc:main:hmp:m10:b10515:best:11:R8:blp:bx:001" target="_blank">
+                            <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/27188428177438.jpg">
                         </a>
                     </div>
                 </div>
@@ -187,27 +187,68 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/time-to-party?&icid2=week:ofc:tmain:hmp:m01:mulb:best:01:R39:clp:bx:100" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16957910089758.jpg">
-                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
+                        <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear-suits/c-msh1012101?q=%3Arelevance%3Acategory%3AMSH1012101%3Acategory%3AMSH1012101%3Acategory%3AMSH1012101%3Acategory%3AMSH1012101%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Adisplay-classification%3AKurta%2BBottom%2BSet%3Adisplay-classification%3AKurta%2BWith%2BPalazzo%3Adisplay-classification%3AKurta%2BWith%2BPalazzos%3AdiscountAll%3ADiscounted%2BItems&icid2=catl:tsb:main:hmp:m1012101:mulb:best:01:R19:clp:Bx:010" target="_blank">
+                            <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/27196106342430.jpg">
+                            {{--<div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
                             For Party <br>
-                        </div>
+                        </div>--}}
                         </a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/women-dresses?&icid2=week:ofc:tmain:hmp:m01:mulb:best:02:R39:clp:bx:100" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16957909958686.jpg">
-                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
+                        <a href="https://www.tatacliq.com/kids-girls-clothing-dresses/c-msh2111102?q=%3Arelevance%3Acategory%3AMSH2111102%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted%2BItems&icid2=catl:tsb:main:hmp:m2111102:mulb:best:03:R19:clp:Bx:010" target="_blank">
+                            <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/27196106670110.jpg">
+                             {{--<div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
                                 Festive <br>
-                            </div>
+                            </div>--}}
                         </a>
                     </div>
                 </div>
 
             </div>
+
+            <div class="row text-center">
+                            <div class="col-sm-4 col-xs-6 col-md-3">
+                                <div class="shopandship onam-prod-pic p-b-26">
+                                    <a href="https://www.tatacliq.com/womens-clothing-western-wear-tops-tunics/c-msh1016102/page-1?q=%3Arelevance%3Acategory%3AMSH1016102%3Acategory%3AMSH1016102%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse&icid2=style:2by2:clp:wom:m1016102:mulb:best:01:R11:clp:bx:001" target="_blank">
+                                        <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/16774641582110.jpg">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-xs-6 col-md-3">
+                                <div class="shopandship onam-prod-pic p-b-26">
+                                    <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear-sarees-and-lehenga-sets/c-msh1012102/page-1?q=%3Arelevance%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Adisplay-classification%3ASarees%3AFabric-family-kidswear%3ACotton+Silk%3AFabric-family-kidswear%3APoly+Silk%3AFabric-family-kidswear%3AOrganza%3AFabric-family-kidswear%3ATussar+Silk%3AFabric-family-kidswear%3ASilk&icid2=style:tsb:clp:wom:m1012102:mulb:best:02:R11:clp:bx:001" target="_blank">
+                                        <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/16774641516574.jpg">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-xs-6 col-md-3">
+                                <div class="shopandship onam-prod-pic p-b-26">
+                                    <a href="https://www.tatacliq.com/sarees-and-lehenga-sets/c-msh1012102?q=%3Arelevance%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3Acategory%3AMSH1012102%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Adisplay-classification%3ALehenga+Choli+Set%3Adisplay-classification%3ATop+With+Skirt%3Adisplay-classification%3AShirt+With+Skirt%3Adisplay-classification%3ABlouse+With+Skirt%3Adisplay-classification%3ALehenga+Set%3Adisplay-classification%3ALehenga%3Adisplay-classification%3ATop+with+Skirt&icid2=style:tsb:clp:wom:m1012102:mulb:best:03:R11:clp:bx:001" target="_blank">
+                                        <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/16774641451038.jpg">
+                                        {{--<div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
+                                        For Party <br>
+                                    </div>--}}
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-xs-6 col-md-3">
+                                <div class="shopandship onam-prod-pic p-b-26">
+                                    <a href="https://www.tatacliq.com/footwear-women/c-msh1310/page-1?q=%3Arelevance%3Acategory%3AMSH1310%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Aheeltype-classification%3AFlat%3AdiscountAll%3ADiscounted+Items%3Asandaltype-classification%3AT-Strap%3Asandaltype-classification%3ASling+Back%3Asandaltype-classification%3ASlide%3Asandaltype-classification%3ABack+Strap%3Asandaltype-classification%3ACross+Strap%3Asandaltype-classification%3AAnkle+Strap%3Asandaltype-classification%3A-%3Asandaltype-classification%3AGladiator&icid2=style:tsb:clp:wom:m1310:mulb:best:05:R11:clp:bx:001" target="_blank">
+                                        <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/16774641713182.jpg">
+                                         {{--<div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
+                                            Festive <br>
+                                        </div>--}}
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
 
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -560,6 +601,61 @@
             </div>
     </section>
 
+    <section class="content-oes">
+            <div class="container-fluid c-f-p">
+                  <p class="f-s-36 f-c-white f-w-8">Tata CLiQ International Delivery from India</p>
+                  <h1>Saw something you like? Buy it right away and we will ship your order to your country!</h1>
+
+                             <p>You just scrolled down to some amazing products from the Indian online shopping store- tatacliq.com.
+                             With more than 1 lack of options from 1200 + brands in women’s fashion, men’s fashion, and kid’s fashion
+                             category, Tatacliq is one of the most popular online shopping sites in India. Its popularity is not just for the wide
+                             array of selection in the latest fashion but also for the amazing offers and deals of the day where customers can
+                             get the best prices on almost everything. With fashion, this amazing Indian online shopping site also takes care of
+                             gadget frenzy people out there. Latest launches, bestsellers, and premium phones from the top brands are available at
+                             discounts throughout the year for customer’s delight.</p>
+
+                             <h1>Women’s Fashion</h1>
+
+                             <p>Tatacliq has the most beautiful Indian clothes collection from the best Indian brands like Jaipur
+                             Kurti, Global Desi, Globus, Varanga, Label Ritu Kumar, W, Pantaloons, Aurelia, and many more.
+                             It also offers great collections from international brands like the United color of Benetton,
+                             Forever New, Hunkermoller, Nuon, etc. Shop for them and give your wardrobe a new look!</p>
+
+                             <h1>Men’s Fashion</h1>
+
+                             <p>Who says men don’t like to shop? The trendy collection at tatacliq.com from the tops brands
+                             like ETA, Pepe Jeans, Puma, Park Avenue, Ascot, Killer, Levi’s, Raymond, Blackberrys, Woodland,
+                             etc. is best for the millennials. So shop till you drop with ShoppRe.</p>
+
+                              <h1>Kid’s Fashion</h1>
+
+                              <p>If you are in search of a new outfit for your little one, then look no more. Tatacliq also offers
+                              a wide range of fashionably cute dresses, tops, jeans, accessories for your angels from brands like
+                              Allen Solly Junior, United Colors at Benetton, Gini & Jony, Pantaloons Junior, Crocs, Cutecumber,
+                              Peppermint, A little fable, Miniklub, HOP by Westside, etc.
+                             </p>
+
+                              <h1>Mobile Phones</h1>
+
+                              <p>Bored with your old phone? Then get a new one from amazing brands like Apple, Oppo, Xiaomi, Nokia,
+                              Motorola, Samsung, Vivo, etc at tatacliq.com. The website offers great deals and offers at almost
+                              all times for you to buy the best phone at the best price. So the next time you go on a shopping
+                              spree with Tatacliq, just get yourself a new mobile phone that suits your budget.
+                              </p>
+
+                               <h1>Online shopping from tatacliq.com</h1>
+
+                               <p>Well, all these great offers over a plethora of products, but what about shipping? Don’t worry,
+                               ShoppRe is your answer! If you are from the USA, UAE, Australia, Germany, Canada, Maldives,
+                               South Africa, or any other country of the world, shopping from Indian online shopping sites like
+                               Tatacliq is possible through our robust and reliable express parcel delivery system with affordable international shipping cost. Just order the products and we will deliver your order at your doorsteps within 3-6 business days.
+                               </p>
+
+                         </div>
+                         <br>
+                         <br>
+                </section>
+
     <section class="delivery" style="background-color: #f2f6fb;">
         <div class="container">
             <br/>
@@ -609,7 +705,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Folk Tale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Baby Toys</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/firstcry-online-shopping" target="_blank">

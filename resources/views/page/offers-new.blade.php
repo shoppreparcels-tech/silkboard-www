@@ -462,8 +462,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Ethnic Wear</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">end of season sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">20th - 30th June</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">TATACLIQ</p>
