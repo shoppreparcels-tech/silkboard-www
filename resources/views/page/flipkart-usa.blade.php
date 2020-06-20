@@ -146,12 +146,7 @@
                     </p>
                     <br>
                     <ul>
-                        <li>Flipkart Freedom Sale 10th to 12th August</li>
-                        <li>Flipkart Big Billion Day Sale 29th September to 2nd October.</li>
-                        <li>Flipkart Diwali Sale 21st to 25th October.</li>
-                        <li>BOSS Up To 80% Off  11th to 15th December</li>
-                        <li>YEAR END SALE 21st to 23th December</li>
-                        <li><a href="/flipkart-online-shopping" target="_blank">WINTER TOP BRANDS - 2020 January</a></li>
+                        <li><a href="/flipkart-online-shopping" target="_blank">BIG SAVING DAYS - 23rd to 27th JUNE 2020</a></li>
                     </ul>
                 </div>
                 <br>

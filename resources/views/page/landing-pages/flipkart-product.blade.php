@@ -160,19 +160,18 @@
             <div class="row">
                 <!-- Start Hide mobile and desktop view sales offers -->
                 <center>
-                    <a href="https://www.flipkart.com/search?q=under%20699&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+                    <a href="https://www.flipkart.com/lifestyle-april-tb-intrigue-store"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/1080/480/image/69a92a0715d78b86.jpg?q=90"
-                             width="50%"
-                             >
+                             src="https://rukminim1.flixcart.com/flap/1800/1800/image/f581338259c14596.jpg"
+                             width="900px">
                     </a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/fashion-post-covid19-wb-store?param=888&nnc=UCFM1J3WXHF0_AD"
+                    <a href="https://www.flipkart.com/lifestyle-april-tb-intrigue-store"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/1080/480/image/69a92a0715d78b86.jpg?q=90"
+                             src="https://rukminim1.flixcart.com/flap/828/588/image/50a439bd1cb53c29.jpg"
                              width="300px" ></a>
                 </center>
 
@@ -271,7 +270,7 @@
 {{--                    </div>--}}
 {{--                </div>--}}
 
-
+            <br>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
                         <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/5eb0ad5874fc9967.jpg?q=90">

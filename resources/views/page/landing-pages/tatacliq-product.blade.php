@@ -153,13 +153,13 @@
             <div class="row">
                 <div class="">
                     <center>
-                        <a href="https://www.tatacliq.com/eoss-pbuzz?&icid2=eoss:cbc:main:hmp:m00:mulb:best:01:R11:clp:bx:010" target="_blank">
+                        <a href="https://www.tatacliq.com/" target="_blank">
                             <img class="img-desktop-view"
-                                 src="//assets.tatacliq.com/medias/sys_master/images/27188426113054.gif"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/27215170240542.gif"
                                  width="1100px"></a>
-                        <a href="https://www.tatacliq.com/eoss-pbuzz?&icid2=eoss:cbc:main:hmp:m00:mulb:best:01:R11:clp:bx:010" target="_blank">
+                        <a href="https://www.tatacliq.com/" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="//assets.tatacliq.com/medias/sys_master/images/27170703573022.gif"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/27215500410910.gif"
                                  width="310px" ></a>
                     </center>
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">Indianwear
