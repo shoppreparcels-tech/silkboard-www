@@ -476,9 +476,9 @@
                             </h14>
                             <br>
                             <h14 class="f-s-14 f-c-l-gray">
-                                <span class="f-c-red">***</span> For Electronics related shipping please see the details
+                                <span class="f-c-red">***</span> For Electronics related shipping
                                 <a href="https://www.shoppreparcels.com/shipping-electronics-internationally/" target="_blank">
-                                    here</a>
+                                    please see the details here</a>
                             </h14>
                             <br>
                             <br>
@@ -517,8 +517,8 @@
                                         <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Get Virtual Address</button></a>
                                 </div>
                                 <div class="col-md-6 col-xs-6 ">
-                                    <a href="/schedule-pickup">
-                                    <button class="btn btn-s-b btn-b-b btn-f-w btn-h-40">Schedule A Pickup</button></a>
+                                    <a href="/first-time-international-shipment-offer">
+                                    <button class="btn btn-s-b btn-b-b btn-f-w btn-h-40">FRST50 Offer</button></a>
                                 </div>
                             </div>
 

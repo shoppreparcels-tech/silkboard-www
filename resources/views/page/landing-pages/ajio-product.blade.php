@@ -137,15 +137,15 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.ajio.com/shop/women" target="_blank">
+                    <a href="https://www.ajio.com/" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/hc3/h1a/17007089877022/18062020-D-WHP-TopBanner-p1-ajiomania-5090.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h78/hc0/17156405624862/23062020-D-WHP-StealOfTheDay-Min60Extra40.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/shop/women" target="_blank">
+                        <a href="https://www.ajio.com/" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h12/h58/17022608670750/18062020-M-UNISEX-TopBanner-AJIOMania-50to90off.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/hdf/h7b/17152337707038/23062020-M-Unisex-StealOfTheDay-Min60Extra40.jpg"
                                  width="300px" ></a>
                     </center>
                     <br>

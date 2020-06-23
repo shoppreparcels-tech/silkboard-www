@@ -310,22 +310,22 @@
         <div class="container fst-service" style="margin-top: 0px;">
            <div class="row">
                <center>
-               <a href="https://www.myntra.com/shop/eors-jun20-prebuzz"
+               <a href="https://www.myntra.com/men-jeans?rf=Price%3A599.0_16993.0_599.0%20TO%2016993.0&sort=price_asc"
                     target="_blank">
                    <img class="img-desktop-view"
-                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/14/3875384d-7bcb-4cc2-b113-6dce4576ff651592153121234-dk-revealing-tomorrow.jpg"
+                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/22/6c877833-1f1a-421f-ad67-8160fd2aea5c1592844942764-Men-sJeans_DK.jpg"
                         width="900px"></a>
                    </center>
                <center>
-                   <a href="https://www.myntra.com/shop/eors-jun20-prebuzz"
+                   <a href="https://www.myntra.com/men-jeans?rf=Price%3A599.0_16993.0_599.0%20TO%2016993.0&sort=price_asc"
                             target="_blank">
                        <img class="img-mobile-view img-shopperstop-offer"
-                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/14/267679bd-d323-4459-bec5-25b46d8cd3cc1592153121290-revealing-tomorrow.jpg"
+                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/22/d8caada9-ced4-4c21-b532-fc4f56ad40e61592846471090-Men-sJeans_App.jpg"
                             width="350px" ></a>
                </center>
                <div class="">
                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                       Shop during "End of Reason Sale" & get ₹200 Off on Shipping Myntra Products to Any Country.</h2>
+                       Shop during "Denim Kinda Day" & get ₹200 Off on Shipping Myntra Products to Any Country.</h2>
                </div>
            </div>
 

@@ -42,7 +42,7 @@
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                         <a href="/ajio-online-shopping" title="AJIO" target="_blank">
-                            THE AJIOMANIA SALE 50-90% Off (18-22 June) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                            STEAL OF THE DAY MIN. 60% Off | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>
