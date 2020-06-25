@@ -310,22 +310,22 @@
         <div class="container fst-service" style="margin-top: 0px;">
            <div class="row">
                <center>
-               <a href="https://www.myntra.com/men-jeans?rf=Price%3A599.0_16993.0_599.0%20TO%2016993.0&sort=price_asc"
+               <a href="https://www.myntra.com/shop/made-in-india-20"
                     target="_blank">
                    <img class="img-desktop-view"
-                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/22/6c877833-1f1a-421f-ad67-8160fd2aea5c1592844942764-Men-sJeans_DK.jpg"
+                        src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/8/a7a78034-16a3-4a37-b265-252cc9bd70281591629761456-MII-desktop-banner.jpg"
                         width="900px"></a>
                    </center>
                <center>
-                   <a href="https://www.myntra.com/men-jeans?rf=Price%3A599.0_16993.0_599.0%20TO%2016993.0&sort=price_asc"
+                   <a href="https://www.myntra.com/shop/made-in-india-20"
                             target="_blank">
                        <img class="img-mobile-view img-shopperstop-offer"
-                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/22/d8caada9-ced4-4c21-b532-fc4f56ad40e61592846471090-Men-sJeans_App.jpg"
+                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/6/23/be0d3564-6f27-48d3-8d08-4802494484aa1592859208381-made-in-india.jpg"
                             width="350px" ></a>
                </center>
                <div class="">
                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                       Shop during "Denim Kinda Day" & get ₹200 Off on Shipping Myntra Products to Any Country.</h2>
+                       Shop in Myntra & get ₹200 Off on Shipping Myntra Products to Any Country.</h2>
                </div>
            </div>
 
