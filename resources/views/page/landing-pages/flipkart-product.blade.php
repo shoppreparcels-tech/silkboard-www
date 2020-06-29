@@ -160,18 +160,18 @@
             <div class="row">
                 <!-- Start Hide mobile and desktop view sales offers -->
                 <center>
-                    <a href="https://www.flipkart.com/lifestyle-april-tb-intrigue-store"
+                    <a href="https://www.flipkart.com/all/clothing-and-accessories/pr?sid=all%2Cclo&p%5B%5D=facets.brand%255B%255D%3DMelange&p%5B%5D=facets.brand%255B%255D%3DBOSSINI&p%5B%5D=facets.brand%255B%255D%3DBossini&p%5B%5D=facets.brand%255B%255D%3DCODE&p%5B%5D=facets.brand%255B%255D%3DFAME%2BFOREVER&p%5B%5D=facets.brand%255B%255D%3DGINGER&p%5B%5D=facets.brand%255B%255D%3DGinger&p%5B%5D=facets.brand%255B%255D%3DKappa&p%5B%5D=facets.brand%255B%255D%3DSmiley&p%5B%5D=facets.brand%255B%255D%3DJUNIORS&p%5B%5D=facets.brand%255B%255D%3DFame%2BForever&p%5B%5D=facets.brand%255B%255D%3DFORCA&p%5B%5D=facets.brand%255B%255D%3DUCLA&p%5B%5D=facets.brand%255B%255D%3DPeople&p%5B%5D=facets.brand%255B%255D%3DAjile%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DPantaloons%2BJunior&p%5B%5D=facets.brand%255B%255D%3DHoney%2BBy%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DPANTALOONS%2BJUNIOR&p%5B%5D=facets.brand%255B%255D%3DHoney%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DRangmanch%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DPoppers%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DIndus%2BRoute%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DDreamz%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DByford%2Bby%2BPantaloons&page=3&pageUID=1593400086791"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/1800/1800/image/f581338259c14596.jpg"
+                             src="https://rukminim1.flixcart.com/flap/828/322/image/f56d5f21760bcab7.jpg"
                              width="900px">
                     </a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/lifestyle-april-tb-intrigue-store"
+                    <a href="https://www.flipkart.com/all/clothing-and-accessories/pr?sid=all%2Cclo&p%5B%5D=facets.brand%255B%255D%3DMelange&p%5B%5D=facets.brand%255B%255D%3DBOSSINI&p%5B%5D=facets.brand%255B%255D%3DBossini&p%5B%5D=facets.brand%255B%255D%3DCODE&p%5B%5D=facets.brand%255B%255D%3DFAME%2BFOREVER&p%5B%5D=facets.brand%255B%255D%3DGINGER&p%5B%5D=facets.brand%255B%255D%3DGinger&p%5B%5D=facets.brand%255B%255D%3DKappa&p%5B%5D=facets.brand%255B%255D%3DSmiley&p%5B%5D=facets.brand%255B%255D%3DJUNIORS&p%5B%5D=facets.brand%255B%255D%3DFame%2BForever&p%5B%5D=facets.brand%255B%255D%3DFORCA&p%5B%5D=facets.brand%255B%255D%3DUCLA&p%5B%5D=facets.brand%255B%255D%3DPeople&p%5B%5D=facets.brand%255B%255D%3DAjile%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DPantaloons%2BJunior&p%5B%5D=facets.brand%255B%255D%3DHoney%2BBy%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DPANTALOONS%2BJUNIOR&p%5B%5D=facets.brand%255B%255D%3DHoney%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DRangmanch%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DPoppers%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DIndus%2BRoute%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DDreamz%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DByford%2Bby%2BPantaloons&page=3&pageUID=1593400086791"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/828/588/image/50a439bd1cb53c29.jpg"
+                             src="https://rukminim1.flixcart.com/flap/414/161/image/f56d5f21760bcab7.jpg"
                              width="300px" ></a>
                 </center>
 

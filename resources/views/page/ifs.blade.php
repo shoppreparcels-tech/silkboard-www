@@ -123,8 +123,8 @@
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                     <a href="/myntra-online-shopping" title="Myntra" target="_blank">1. 👉 MADE IN INDIA</a> |
                     <a href="/ajio-online-shopping" title="Ajio" target="_blank">2. 👉 THE AJIOMANIA SALE</a> |
-                    <a href="/amazon-online-shopping" title="amazon" target="_blank">3. 👉 WARDROBE REFRESH SALE</a> |
-                    <a href="/flipkart-online-shopping" title="Flipkart" target="_blank"> 4. 👉 BIG SAVING DAYS</a>
+                    <a href="/amazon-online-shopping" title="amazon" target="_blank">3. 👉 END OS SEASON SALE</a> |
+                    <a href="/flipkart-online-shopping" title="Flipkart" target="_blank"> 4. 👉 FASHION BRANDS</a>
              </marquee>
         </div>
         <div class="container" id="how-it-works">

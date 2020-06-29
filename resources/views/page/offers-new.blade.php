@@ -277,8 +277,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG SAVING DAYS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FASHION BRANDS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -362,8 +362,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WARDROBE REFRESH</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upto 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">END OS SEASON SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
         {{-- <div class="ecomSmallBox" style="height: 94px;"> --}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-india-shop-international-shipping" target="_blank">

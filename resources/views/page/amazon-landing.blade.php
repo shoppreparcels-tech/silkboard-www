@@ -86,17 +86,17 @@
             <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in HAR PAL FASHIONABLE</h2>
             <div class="row text-center">
               <center>
-            <a href="https://www.amazon.in/b/ref=sl_gw_feb20?node=6648217031&pf_rd_r=JZB77RST10CHKZYFK8G0&pf_rd_p=90df2f0c-4b49-47f5-b410-3c17e60adb26"
+            <a href="https://www.amazon.in/b/ref=QAHeroV_en_IN?pf_rd_r=MQ1V9QQNB2BYE12NBEYA&pf_rd_p=c02c30e7-7809-4680-a95c-f552591fd569&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=mobile-hybrid-16&pf_rd_t=30901&pf_rd_i=6648217031&node=18016023031"
                  target="_blank">
                     <img class="img-desktop-view"
-                       src="https://m.media-amazon.com/images/G/31/img20/Fashion/EVENT/WRS20/TBUpdated/V2/1024x350-AF-PC-FST_PRIME._CB429393993_.jpg"
+                       src="https://m.media-amazon.com/images/G/31/img20/Fashion/EVENT/WRS20/26thFlip/Clearance/Ingress_clearance-new-1._CB428313361_.jpg"
                        width="900px"></a>
                     </center>
               <center>
-                    <a href="https://www.amazon.in/b/ref=sl_gw_feb20?node=6648217031&pf_rd_r=JZB77RST10CHKZYFK8G0&pf_rd_p=90df2f0c-4b49-47f5-b410-3c17e60adb26"
+                    <a href="https://www.amazon.in/b/ref=QAHeroV_en_IN?pf_rd_r=MQ1V9QQNB2BYE12NBEYA&pf_rd_p=c02c30e7-7809-4680-a95c-f552591fd569&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=mobile-hybrid-16&pf_rd_t=30901&pf_rd_i=6648217031&node=18016023031"
                       target="_blank">
                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://m.media-amazon.com/images/G/31/img20/Fashion/EVENT/WRS20/TBUpdated/V2/Prime-FST-AF._SY1500_QL85_.jpg"
+                             src="https://m.media-amazon.com/images/G/31/img20/Fashion/EVENT/WRS20/Clearance/clearance_Static-min._SY900_QL85_.jpg"
                             width="310px" ></a>
                </center>
               <div class="col-sm-4">
