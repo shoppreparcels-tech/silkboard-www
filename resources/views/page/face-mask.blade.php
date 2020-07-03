@@ -378,6 +378,9 @@
         <div class="container fst-service" style="margin-top: 0px;">
 
             <div class="row text-center">
+                <marquee direction="left">
+                 <span class="f-s-20 p-color-cement-dark font-weight-900">
+                    4-ply, 3-ply, 8-Ply, N-95 & Cloth Mask are banned for shipping internationally.</span></marquee>
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>
                         Special Campaign<span class="f-s-20 f-c-blue f-w-9"> ( Virus & Anti Air Pollution )</span>
                     </u></h2>
