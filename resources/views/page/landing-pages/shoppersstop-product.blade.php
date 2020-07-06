@@ -133,19 +133,19 @@
             <div class="row">
               <div>
                    <center>
-                   <a href="https://www.shoppersstop.com/virtual-category-all-ethnic-wear/c-ALLETHNICWEAR?icid=ethnicw|homepg|4-1|ethnicw20200609" target="_blank">
+                   <a href="https://www.shoppersstop.com/women/c-A20?pagetype=topbar&bannername=women&date=15112016" target="_blank">
                       <img class="img-desktop-view"
-                            src="https://sslimages.shoppersstop.com/sys-master/root/h62/hdf/14831886106654/banner_2000x600_ehtnicw_2000W_20200606.jpeg.jpg"
+                            src="https://sslimages.shoppersstop.com/sys-master/root/hc7/h1f/14798154825758/banner_00_2000x600_kurta_200W20200509.jpg"
                            width="1100px"
                        ></a>
                        </center>
                       <center>
-                       <a href="https://www.shoppersstop.com/virtual-category-all-ethnic-wear/c-ALLETHNICWEAR?icid=ethnicw|homepg|4-1|ethnicw20200609" target="_blank">
+                       <a href="https://www.shoppersstop.com/women/c-A20?pagetype=topbar&bannername=women&date=15112016" target="_blank">
                   <img class="img-mobile-view img-shopperstop-offer"
-                        src="https://sslimages.shoppersstop.com/sys-master/root/h8a/he6/14831886336030/banner_93_640x728_ethnicw_1EN_640W_20200606.JPEG%20%282%29.jpg"
+                        src="https://sslimages.shoppersstop.com/sys-master/root/hc7/h1f/14798154825758/banner_00_2000x600_kurta_200W20200509.jpg"
                        width="310px" ></a>
                   </center>
-                                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JUNE 2020 Sale /
+                                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JULY 2020 Sale /
                       Below are the Recommended & Recently Shipped Products!</h2>
                 {{--  <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span> --}}
                </div>

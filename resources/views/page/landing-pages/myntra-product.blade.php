@@ -310,17 +310,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
            <div class="row">
                <center>
-               <a href="https://www.myntra.com/shop/made-in-india-20"
+               <a href="https://www.myntra.com/myntra-fashion-store?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"
                     target="_blank">
                    <img class="img-desktop-view"
-                        src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/8/a7a78034-16a3-4a37-b265-252cc9bd70281591629761456-MII-desktop-banner.jpg"
+                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/5/b45d2b08-27e2-4d0a-9f50-c900f848f1511593968067439-Desktop.jpg"
                         width="900px"></a>
                    </center>
                <center>
-                   <a href="https://www.myntra.com/shop/made-in-india-20"
+                   <a href="https://www.myntra.com/myntra-fashion-store?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0"
                             target="_blank">
                        <img class="img-mobile-view img-shopperstop-offer"
-                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/6/23/be0d3564-6f27-48d3-8d08-4802494484aa1592859208381-made-in-india.jpg"
+                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/7/5/d6d2bd20-9844-4def-8dcb-9169d782701f1593967753514-Main-Banner-860.jpg"
                             width="350px" ></a>
                </center>
                <div class="">

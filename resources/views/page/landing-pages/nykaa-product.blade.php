@@ -156,17 +156,17 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.nykaafashion.com/indian-wear" target="_blank">
+                    <a href="https://www.nykaa.com/skin-care-products-sale-online?transaction_id=d8f3102d38847dfb6614e3b101287eb1&intcmp=hp,focus_banner,1,skin-care-products-sale-online" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/fermion/images/category_slider/img/tr:w-2698,/Indianwear.desktop140.jpg?rnd=20200526195200"
+                             src="https://images-static.nykaa.com/tr:w-1140,c-at_max/uploads/f62289e4-d9dd-4491-9406-6e2e19e3eeba.jpg"
                              width="1100px"></a>
-                        <a href="https://www.nykaafashion.com/indian-wear" target="_blank">
+                        <a href="https://www.nykaa.com/skin-care-products-sale-online?transaction_id=d8f3102d38847dfb6614e3b101287eb1&intcmp=hp,focus_banner,1,skin-care-products-sale-online" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/fermion/images/category_slider/img/tr:w-828,/Indianwear.mobile788.jpg?rnd=20200526195200"
+                                 src="https://images-static.nykaa.com/uploads/6205f632-8c84-44b5-808d-8651314b5188.jpg?tr=w-500,pr-true"
                                  width="370px" ></a>
                     </center>
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                        <span class="f-s-25 f-c-red f-w-9"> (JUNE 2020 )</span> /
+                        <span class="f-s-25 f-c-red f-w-9"> (JULY 2020 )</span> /
                         Below are the Recommended & Recently Shipped Products from NYKAA!</h2>
                 </div>
 

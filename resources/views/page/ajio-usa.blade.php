@@ -120,7 +120,8 @@
                     <h4 style="text-decoration: underline" class="f-c-blue">Upcoming 2020 AJIO Sales</h4>
                     <br>
                     <ul>
-                     <<li>PAYDAY SALE (40-80% OFF) - (30th June 2020 - 02nd July 2020)</li>
+                     <li>START THE WEEK ON A STYLISH NOTE (50% OFF)- (July 2020)</li>
+                     <li>PAYDAY SALE (40-80% OFF) - (30th June 2020 - 02nd July 2020)</li>
                      <li>THE AJIOMANIA SALE (50-90% OFF) - (25th June 2020 - 29th June 2020)</li>
                     <li>BIG BOLD SALE (50-90% OFF) - (11th June 2020 - 15th June 2020)</li>
 

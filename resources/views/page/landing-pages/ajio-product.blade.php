@@ -139,13 +139,13 @@
                     <center>
                     <a href="https://www.ajio.com/" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/hc0/h86/17238490808350/30062020-D-WHP-TopBanner-p1-payday4080extra20.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h92/h6d/17307988852766/6072020-D-WHP-TopBanner-p1-min50extra32.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
                         <a href="https://www.ajio.com/" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h10/h3a/17232376561694/30062020-M-UNISEX-TopBanner-PayDaySale-40to80Extra20.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/h41/hd0/17307989835806/6072020-M-WHP-TopBanner-p1-min50extra32.jpg"
                                  width="300px" ></a>
                     </center>
                     <br>

@@ -267,46 +267,7 @@
 
             <br>
 
-            <div class="row text-center">
-                <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Cloth Face Mask</h2>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.amazon.in/FabAlley-Unisex-Cotton-Face-MSK00022_Multi-Color_Required/dp/B088KZ7V6H" target="_blank">
-                            <img class="img-product m-t-img"
-                            src="https://images-na.ssl-images-amazon.com/images/I/71TjAj3CfFL._UY741_.jpg">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/Louis-Philippe-Mens-Cotton-LPMSMRGFT16432_Assorted_Large/dp/B088S2FW1D" target="_blank">
-                            <img class="img-product m-t-img"
-                            src="https://images-na.ssl-images-amazon.com/images/I/619M5nONDBL._UY741_.jpg">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/Van-Heusen-Mens-Cotton-VHMSBRGPY32453_Assorted_Free/dp/B088GDM3L6" target="_blank">
-                            <img class="img-product m-t-img"
-                            src="https://images-na.ssl-images-amazon.com/images/I/61y%2B8-DwBzL._UY741_.jpg">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/Peter-England-Mens-Cotton-PECLMSKW52031_Assorted_Free/dp/B088V8C91N" target="_blank">
-                            <img class="img-product m-t-img "
-                            src="https://images-na.ssl-images-amazon.com/images/I/613vOOTPNvL._UY741_.jpg">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
 
             {{--Women's Fashion --}}
             <div class="row text-center">

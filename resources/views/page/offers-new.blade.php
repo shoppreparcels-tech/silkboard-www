@@ -271,7 +271,7 @@
 
         <div class="container">
             <br/>
-           <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (June 2020 Sale):</h3>
+           <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (July 2020 Sale):</h3>
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
@@ -290,8 +290,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Best Selling Kurtas</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">10K + Products on Sale</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashion basket</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/limeroad-online-shopping" target="_blank">
@@ -304,7 +304,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">June Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">July Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up to 60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/chumbak-online-shopping" target="_blank">
@@ -333,8 +333,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">A STYLISH NOTE SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
 {{--                            <h5 class="header6 p-color-cement font-weight-900">22nd-4th June</h5>--}}
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping" target="_blank">
@@ -347,8 +347,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">MADE IN INDIA</h4>
-                           <h5 class="header6 p-color-cement font-weight-900">Starting @ ₹199</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">EPIC FASHION SALE</h4>
+                           <h5 class="header6 p-color-cement font-weight-900">50-80% oFF</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -377,8 +377,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ethnic wear</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upto 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">KURTAS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Upto 60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/shoppersstop-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">SHOPPERSSTOP</p>
@@ -449,7 +449,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Indian Wear</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Skin care sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 30% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/nykaa-online-shopping" target="_blank">
@@ -462,8 +462,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">end of season sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">20th - 30th June</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ethnic elegance</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Starts from ₹499</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">TATACLIQ</p>
@@ -488,8 +488,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">INSPIRATION</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Half Price Sale</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Best of brands</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 40% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/lifestylestores-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">LIFESTYLE</p>

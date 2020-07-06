@@ -151,7 +151,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JUNE 2020 Sale /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">JULY 2020 Sale /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    : <span class="f-s-25 f-c-red f-w-9">Dil Se Diwali</span>--}}
                 </div>
@@ -165,24 +165,22 @@
 {{--                    </div>--}}
 {{--                </div>--}}
             </div>
-{{--            <div class="row">--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">--}}
-{{--                        <img class="img-desktop-view"--}}
-{{--                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Desktop_2-19FEB20200.gif"--}}
-{{--                             --}}{{--                         width="800px"--}}
-{{--                             width="1100px"--}}
-{{--                        ></a>--}}
-{{--                </center>--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">--}}
-{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                             src="9FEB20200.gif"--}}
-{{--                             width="350px" ></a>--}}
-{{--                </center>--}}
-{{--            </div>--}}
+            <div class="row">
+                <center>
+                    <a href="https://www.lifestylestores.com/in/en/search?discount=40,100&q=allCategories%3Amen%3AmanufacturerName.en%3AIndian%20Terrain%3AmanufacturerName.en%3AKappa%3AmanufacturerName.en%3AUnited%20Colors%20of%20Benetton%3AmanufacturerName.en%3ACODE" target="_blank">
+                        <img class="img-desktop-view"
+                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Desktop_2-05July2020.jpg"
+                                    width="800px"></a>
+                </center>
+                <center>
+                   <a href="https://www.lifestylestores.com/in/en/search?discount=40,100&q=allCategories%3Amen%3AmanufacturerName.en%3AIndian%20Terrain%3AmanufacturerName.en%3AKappa%3AmanufacturerName.en%3AUnited%20Colors%20of%20Benetton%3AmanufacturerName.en%3ACODE" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Desktop_2-05July2020.jpg"
+                            width="350px" ></a>
+               </center>
+           </div>
 
-
+            <br>
             <div class="row text-center">
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
