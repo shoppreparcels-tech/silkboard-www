@@ -333,53 +333,88 @@
               {{-- <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
 
                 <br>
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900">Cloth Face Mask</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900">Shop Top Categories</h2>
 
-                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="col-sm-4 col-xs-6 col-md-3">
                         <div class="shopandship onam-prod-pic p-b-26">
-                            <a href="https://www.myntra.com/outdoor-masks/sera/sera-unisex-2-pcs-3-ply-printed-reusable-outdoor-fabric-masks/11815882/buy" target="_blank">
+                            <a href="https://www.myntra.com/kurtas?f=Gender%3Amen%20women%2Cwomen">
                                 <img class="img-product m-t-img"
-                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11815882/2020/4/27/04710127-322e-47f0-bd99-0c6b7fefbc5e1588000745700Sera1.jpg">
+                                src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/c9995341-7675-4835-ad63-f99988b90bcb1583845228786-111.jpg">
 
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="col-sm-4 col-xs-6 col-md-3">
                         <div class="shopandship onam-prod-pic p-b-26">
-                            <a href="https://www.myntra.com/outdoor-masks/sera/sera-unisex-2-pcs-3-ply-printed-reusable-outdoor-fabric-masks/11815854/buy" target="_blank">
+                            <a href="https://www.myntra.com/dresses" target="_blank">
                                 <img class="img-product m-t-img"
-                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11815854/2020/4/27/595b38a7-5376-4b36-93bf-6c5bbdffc75a1587996728138Sera1.jpg">
+                                src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/da0eb34d-4594-4ca5-af2c-3f40d21c98fb1583845228353-10.jpg">
 
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="col-sm-4 col-xs-6 col-md-3">
                         <div class="shopandship onam-prod-pic p-b-26">
-                            <a href="https://www.myntra.com/outdoor-masks/bene-kleed/bene-kleed-unisex-3-pcs-5-ply-reusable-outdoor-fashion-masks/11880914/buy" target="_blank">
+                            <a href="https://www.myntra.com/tops" target="_blank">
                                 <img class="img-product m-t-img"
-                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11880914/2020/5/27/7ed77b83-bf47-4e18-b792-39be7757ddf61590584931351BeneKleedUnisex3Pcs5-PlyReusableOutdoorFashionMasks1.jpg">
+                                src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/16debe32-a700-4cea-8724-ff2d91f5b5a11583845228429-12.jpg">
 
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="col-sm-4 col-xs-6 col-md-3">
                         <div class="shopandship onam-prod-pic p-b-26">
-                            <a href="https://www.myntra.com/outdoor-masks/pannkh/pannkh-unisex-5-pcs-printed-2-ply-reusable-pleated-fabric-outdoor-mask/11882818/buy" target="_blank">
+                            <a href="https://www.myntra.com/casual-footwear" target="_blank">
                                 <img class="img-product m-t-img"
-                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11882818/2020/5/27/4eb07f43-65ac-476c-9f72-4c89d4eeabc91590559286587PannkhUnisex5PcsPrinted2-PlyReusablePleatedFabricOutdoorMask1.jpg">
+                                src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/34f5243e-1299-485b-8eef-e660300dc5431583845228469-13.jpg">
 
                             </a>
                         </div>
                     </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.myntra.com/t-shirt?f=Gender%3Amen%2Cmen%20women">
+                            <img class="img-product m-t-img"
+                            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/da1bfb5e-6017-4dd5-8f71-568f2693fc731583845228670-22.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.myntra.com/casual-shirts?f=Gender%3Amen%2Cmen%20women" target="_blank">
+                            <img class="img-product m-t-img"
+                            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/4a7f41f4-aaf2-4aec-8e9f-fc785f87cf491583845228707-33.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.myntra.com/casual-trousers?f=Gender%3Amen%2Cmen%20women" target="_blank">
+                            <img class="img-product m-t-img"
+                            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/4/16/5919ab50-6d27-4467-98b9-d69628b233621587023737170-6.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.myntra.com/sports-shoes" target="_blank">
+                            <img class="img-product m-t-img"
+                            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/78868468-aec4-4731-9ae2-3e96e88728941583845228749-44.jpg">
+                        </a>
+                    </div>
+                </div>
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26">
                             <a href="https://www.myntra.com/7186140" target="_blank">
                                 <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/7/c7c95950-20f8-458c-9a09-8d3ab74cd1401575661203373-Anouk_W.png">
-
                             </a>
                         </div>
                     </div>
@@ -388,7 +423,6 @@
                         <div class="shopandship onam-prod-pic p-b-26">
                             <a href="https://www.myntra.com/9626019" target="_blank">
                                 <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/7/0e25db2d-cf1e-4d8b-a7f4-90c98353706f1575661217197-W.png">
-
                             </a>
                         </div>
                     </div>

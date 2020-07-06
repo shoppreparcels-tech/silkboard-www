@@ -162,7 +162,7 @@
                                  src="https://assets.tatacliq.com/medias/sys_master/images/27289470631966.jpg"
                                  width="310px" ></a>
                     </center>
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">Indianwear
+                    <h2 class="f-s-18 p-color-cement-dark font-whttps://assets.tatacliq.com/medias/sys_master/images/27188428177438.jpgeight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">Indianwear
                     for every season<span>
                         / Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
@@ -179,8 +179,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/marriage-of-colours-men?&icid2=week:tsb:tmain:hmp:m11:mulb:best:02:R10:clp:bx:001" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645510922270.jpg">
+                        <a href="https://www.tatacliq.com/gap-brand-store?&icid2=fres:tsb:main:hmp:m01:b11389:best:02:R13:blp:Bx:001" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/images/27342981791774.jpg">
                         </a>
                     </div>
                 </div>
@@ -251,144 +251,72 @@
                         </div>
 
             <div class="row text-center">
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16328752889886.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Soan Papdi <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹150 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.tatacliq.com/womens-lifestyle" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                            <a href="https://www.tatacliq.com/mens-clothing-casual-wear-shirts/c-msh1116101/page-1?q=%3Arelevance%3Acategory%3AMSH1116101%3Acategory%3AMSH1116101%3Acategory%3AMSH1116101%3Acategory%3AMSH1116101%3Acategory%3AMSH1116101%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A30%2525%2B-%2B50%2525%3AdiscountFlag%3A50%2525%2B-%2B70%2525%3AdiscountFlag%3A70%2525%2Band%2Bmore&icid2=catl:tsb:main:hmp:m1116101:mulb:best:05:R19:clp:Bx:010" target="_blank"> <span class="elementor-icon-list-icon">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/images/27332555374622.jpg">
+
                             </a>
-                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16328751579166.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Kaju Katli <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹245 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.tatacliq.com/mens-lifestyle" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                            <a href="https://www.tatacliq.com/watches/c-msh15/page-1?q=%3Arelevance%3Acategory%3AMSH15%3Acategory%3AMSH15%3Acategory%3AMSH15%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Agender%3AUnisex%3Agender%3AMen%3Astrapcolor%3ABlack_000000%3Aprice%3A%E2%82%B91%2C200-%E2%82%B960%2C000&icid2=catl:tsb:main:hmp:m15:mulb:best:06:R19:clp:Bx:010">
+                            <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/27332555440158.jpg">
+
                             </a>
-                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16328751841310.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Besan Laddu <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹145 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://clnk.in/jQsZ" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                            <a href="https://www.tatacliq.com/footwear-men-casual/c-msh1311113?q=%3Arelevance%3Acategory%3AMSH1311113%3Acategory%3AMSH1311113%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A50%2525%2B-%2B70%2525%3AdiscountFlag%3A70%2525%2Band%2Bmore&icid2=catl:tsb:main:hmp:m1311113:mulb:best:08:R19:clp:Bx:010" target="_blank"> <span class="elementor-icon-list-icon">
+                                <img class="img-product m-t-img" src="//assets.tatacliq.com/medias/sys_master/images/27332555309086.jpg">
                             </a>
-                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://assets.tatacliq.com/medias/sys_master/managed/16367996239902.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Doodh Burfi <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹145 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.tatacliq.com/electronics-tablets-tablets/c-msh1210100" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                            <a href="https://www.tatacliq.com/kids-boys-clothing/c-msh2110?q=%3Arelevance%3Acategory%3AMSH2110%3Acategory%3AMSH2110%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A50%2525%2B-%2B70%2525%3AdiscountFlag%3A70%2525%2Band%2Bmore&icid2=catl:tsb:main:hmp:m2110:mulb:best:11:R19:clp:Bx:010" target="_blank"> <span class="elementor-icon-list-icon">
+                            <img class="img-product m-t-img " src="//assets.tatacliq.com/medias/sys_master/images/27332555636766.jpg">
                             </a>
-                        </div>
                     </div>
                 </div>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://assets.tatacliq.com/medias/sys_master/managed/16358104498206.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Raisins <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹140 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear-suits/c-msh1012101" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                          <a href="https://www.tatacliq.com/womens-clothing-ethnic-wear-kurtis-kurtas/c-msh1012100/page-1?q=%3Arelevance%3Acategory%3AMSH1012100%3Acategory%3AMSH1012100%3Acategory%3AMSH1012100%3Acategory%3AMSH1012100%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted%2BItems%3AFabric-family-kidswear%3ACotton&icid2=catl:tsb:main:hmp:m1012100:mulb:best:01:R19:clp:Bx:010" target="_blank"> <span class="elementor-icon-list-icon">
+                          <img class="img-product m-t-img " src="//assets.tatacliq.com/medias/sys_master/images/27332555702302.jpg">
                             </a>
-                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://assets.tatacliq.com/medias/sys_master/managed/16358105153566.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Pista <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹140 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.tatacliq.com/t-shirts-&-polos/c-msh1116100/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                            <a href="https://www.tatacliq.com/footwear-women-casual/c-msh1310113?q=%3Arelevance%3Acategory%3AMSH1310113%3Acategory%3AMSH1310113%3Acategory%3AMSH1310113%3Acategory%3AMSH1310113%3Acategory%3AMSH1310113%3Acategory%3AMSH1310113%3Acategory%3AMSH1310113%3Acategory%3AMSH1310113%3Aprice%3A%25E2%2582%25B9599-%25E2%2582%25B99%252C999%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Asandaltype-classification%3A-%3Asandaltype-classification%3AAnkle%2BStrap%3Asandaltype-classification%3ABack%2BStrap%3Asandaltype-classification%3ACross%2BStrap%3Asandaltype-classification%3ASling%2BBack%3Asandaltype-classification%3AT-Strap%3Asandaltype-classification%3AToe%2BRing%3AdiscountAll%3ADiscounted%2BItems&icid2=catl:tsb:main:hmp:m1310113:mulb:best:09:R19:clp:Bx:010" target="_blank"> <span class="elementor-icon-list-icon">
+                           <img class="img-product m-t-img " src="//assets.tatacliq.com/medias/sys_master/images/27332555767838.jpg">
+
                             </a>
-                        </div>
+
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://assets.tatacliq.com/medias/sys_master/managed/16332537593886.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Mamra Badam <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹640 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.tatacliq.com/footwear-men/c-msh1311/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                            <a href="https://www.tatacliq.com/womens-clothing-western-wear/c-msh1016/page-1?q=%3Arelevance%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3Acategory%3AMSH1016%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Adisplay-classification%3AT-Shirt%3Adisplay-classification%3ACulottes%3Adisplay-classification%3AJoggers%3Adisplay-classification%3AHoodie%3Adisplay-classification%3APolo%2BT-Shirt%3Adisplay-classification%3APullover%3Adisplay-classification%3AShorts%3Adisplay-classification%3ASports%2BT-Shirt%3Adisplay-classification%3ASports%2BTights%3Adisplay-classification%3ASweatshirt%3Adisplay-classification%3ATrackpants&icid2=catl:tsb:main:hmp:m1016:mulb:best:04:R19:clp:Bx:010" target="_blank"> <span class="elementor-icon-list-icon">
+                             <img class="img-product m-t-img " src="//assets.tatacliq.com/medias/sys_master/images/27332555833374.jpg">
+
                             </a>
-                        </div>
+
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://assets.tatacliq.com/medias/sys_master/managed/16358104891422.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Cashew <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹280 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.tatacliq.com/electronics-personal-care/c-msh1236?&icid2=catd:nav:regu:anav:m1236:mulb:best:01:R9&icid2=caty:tsb:tmain:hmp:m1316:mulb:min60off:03:R25:clp:Bx:001" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                            <a href="https://www.tatacliq.com/bed-linen/c-msh2213/?q=:relevance:category:MSH2213:inStockFlag:true&icid2=catl:tsb:main:hmp:m2213:mulb:best:02:R19:clp:Bx:010" target="_blank"> <span class="elementor-icon-list-icon">
+                              <img class="img-product m-t-img " src="//assets.tatacliq.com/medias/sys_master/images/27332555898910.jpg">
+
                             </a>
-                        </div>
+
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="//assets.tatacliq.com/medias/sys_master/images/16331083120670.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
@@ -721,10 +649,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Women's Westernwear</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Women's Fashion</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.shoppersstop.com/women-westernwear/c-A2060" target="_blank">
+                                <a href="/shoppersstop-online-shopping" target="_blank">
                                     <p class="header5 p-color-cement-dark font-weight-900">SHOPPERS STOP</p>
                                 </a>
                             </div>

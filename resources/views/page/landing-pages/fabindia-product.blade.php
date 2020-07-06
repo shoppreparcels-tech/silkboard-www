@@ -164,8 +164,11 @@
                                 src="https://www.fabindia.com/file/general/SALE-BANNER-MOB-2.jpg"
                                 width="350px" ></a>
                    </center>
-                   <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">June 2020 Sale <span class="f-s-25 f-c-red f-w-9"></span> /
+                   <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">July 2020 Sale <span class="f-s-25 f-c-red f-w-9"></span> /
                        Below are the Recommended & Recently Shipped Products!</h2>
+                       <br>
+                       <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">Raksha Bandhan 2020
+                       (Monday, 3 August) Shop Today & Get delivered internationally in just 3-6 days.</h2>
                </div>
              {{--<div class="col-md-4 col-xs-12 text-center margin-tp">
                    <div class="">
@@ -177,9 +180,9 @@
                </div>--}}
             </div>
             <div class="row text-center">
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v7480292178110081942/products/10659647FM.f.130520.jpg&height=475&width=475">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v8662668659707186140/products/10659302RK.f.200620.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -187,16 +190,16 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.fabindia.com/pleated-set-of-4-plain-non-surgical-mask-10659647" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/orange-yellow-thread-rakhi-10659302" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v2853675679194325037/products/10659648FM.f.130520.jpg&height=475&width=475">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v4237465009034293191/products/10659310RK.f.200620.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -204,16 +207,16 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.fabindia.com/pleated-set-of-4-printed-non-surgical-mask-10659648" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/bead-work-rakhi-10659310" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v6541428900304289162/products/10658297FM.f.160420.jpg&height=475&width=475">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v6294282887697982940/products/10659321RK.f.200620.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -221,16 +224,16 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.fabindia.com/snug-fit-non-surgical-mask-10658297" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/metal-ruby-golden-rakhi-10659321" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v1517017878548771272/products/10658299FM.f.220420.jpg&height=475&width=475">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v573140375370887774/products/10659388RK.f.200620.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -238,7 +241,7 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.fabindia.com/snug-fit-non-surgical-mask-10658299" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/crochet-thread-rakhi-10659388" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
